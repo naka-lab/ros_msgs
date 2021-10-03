@@ -1,18 +1,18 @@
-# ros_msg
+# ros_msgs
 研究室で使用する独自定義のメッセージ・サービスを共有するためのリポジトリ
 
 ## 使い方
 1. リポジトリのclone 
-```
-cd ~/catkin_ws/src
-git clone https://github.com/naka-lab/ros_msgs.git
-```
+    ```
+    cd ~/catkin_ws/src
+    git clone https://github.com/naka-lab/ros_msgs.git
+    ```
 
 2. catkin_make
-```
-cd ~/catkin_ws
-catkin_make -DCATKIN_WHITELIST_PACKAGES="ros_msgs"
-```
+    ```
+    cd ~/catkin_ws
+    catkin_make -DCATKIN_WHITELIST_PACKAGES="ros_msgs"
+    ```
 
 ## 新たなメッセージ・サービスの追加
 1. srvまたはmsgフォルダに定義ファイル（*.srv, *.msg）を追加
