@@ -17,7 +17,7 @@
 ## 新たなメッセージ・サービスの追加
 1. srvまたはmsgフォルダに定義ファイル（*.srv, *.msg）を追加
 
-2. CMakeLists.txtに`add_message_files`または`add_service_files`定義ファイルの名前を追加
+2. CMakeLists.txtの`add_message_files`または`add_service_files`に定義ファイルの名前を追加
     ```
     add_message_files(
       FILES
